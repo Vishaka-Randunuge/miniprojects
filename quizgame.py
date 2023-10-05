@@ -8,37 +8,69 @@ if playing != "yes":
 print("Okay lets play now!")
 score = 0
 
-answer = input("What does CPU mean? ")
-if answer == "central processing unit":
-    print("correct")
+answer = input("What is the name of the school Harry Potter attends? ")
+if answer.lower() == "hogwarts":
+    print("Correct!")
     score += 1
 else:
     print("Incorrect!")
-    print("the correct answer is : central processing unit")
+    print("The correct answer is: Hogwarts")
 
-answer = input("What does GPU stand for? ")
-if answer == "graphics processing unit":
-    print("correct")
+answer = input("Who is Harry Potter's best friend? ")
+if answer.lower() == "ron weasley":
+    print("Correct!")
     score += 1
 else:
     print("Incorrect!")
-    print("the correct answer is : graphics processing unit")
+    print("The correct answer is: Ron Weasley")
 
-answer = input("What does RAM mean? ")
-if answer == "random access memory":
-    print("correct")
+answer = input("What is the name of Harry Potter's pet owl? ")
+if answer.lower() == "hedwig":
+    print("Correct!")
     score += 1
 else:
     print("Incorrect!")
-    print("the correct answer is : random access memory")
+    print("The correct answer is: Hedwig")
 
-answer = input("What does PSU mean? ")
-if answer == "power supply unit":
-    print("correct")
+answer = input("Who is the dark wizard and main antagonist in the series? ")
+if answer.lower() == "lord voldemort":
+    print("Correct!")
     score += 1
 else:
     print("Incorrect!")
-    print("the correct answer is : power supply unit")
+    print("The correct answer is: Lord Voldemort")
+
+answer = input("What is the name of the sport played on broomsticks in the wizarding world? ")
+if answer.lower() == "quidditch":
+    print("Correct!")
+    score += 1
+else:
+    print("Incorrect!")
+    print("The correct answer is: Quidditch")
+
+answer = input("What is the name of the train that takes students to Hogwarts? ")
+if answer.lower() == "hogwarts express":
+    print("Correct!")
+    score += 1
+else:
+    print("Incorrect!")
+    print("The correct answer is: Hogwarts Express")
+
+answer = input("What is the name of the magical sport played on flying broomsticks with four balls? ")
+if answer.lower() == "quidditch":
+    print("Correct!")
+    score += 1
+else:
+    print("Incorrect!")
+    print("The correct answer is: Quidditch")
+
+answer = input("Who is the headmaster of Hogwarts throughout most of the series? ")
+if answer.lower() == "albus dumbledore":
+    print("Correct!")
+    score += 1
+else:
+    print("Incorrect!")
+    print("The correct answer is: Albus Dumbledore")
 
 print ("you got " + str(score) + " questions correct!")
 print ("you got " + str((score/4)*100) + " %")
