@@ -73,4 +73,4 @@ else:
     print("The correct answer is: Albus Dumbledore")
 
 print ("you got " + str(score) + " questions correct!")
-print ("you got " + str((score/4)*100) + " %")
+print ("you got " + str((score/8)*100) + " %")
